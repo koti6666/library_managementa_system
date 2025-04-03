@@ -8,7 +8,7 @@ db_connection = mysql.connector.connect(
     password='root',
     database='lib'
 )
-
+#create a streamlit
 # Create a Streamlit app with a navbar
 def main():
     menu = ["Add New Book", "Lend Book", "Return Book", "Search Book",
